@@ -27,3 +27,7 @@ Task2-PlainEnglishTestRunner/reports/
 Thumbs.db
 *.swp
 *.bak
+
+# Presentation / Recording artifacts
+*SCREEN_RECORDING*
+

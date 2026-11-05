@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientFormAutomation.Core", "ResilientFormAutomation.Core\ResilientFormAutomation.Core.csproj", "{31473794-965A-42C5-A957-B5D98FFDAD7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientFormAutomation.Cli", "ResilientFormAutomation.Cli\ResilientFormAutomation.Cli.csproj", "{5DDE4130-D2C0-4406-B3C3-AE4C85E1C1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientFormAutomation.Tests", "ResilientFormAutomation.Tests\ResilientFormAutomation.Tests.csproj", "{7AB8C9F0-7494-4FA6-9230-5BCAAE785A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31473794-965A-42C5-A957-B5D98FFDAD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31473794-965A-42C5-A957-B5D98FFDAD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31473794-965A-42C5-A957-B5D98FFDAD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31473794-965A-42C5-A957-B5D98FFDAD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDE4130-D2C0-4406-B3C3-AE4C85E1C1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE4130-D2C0-4406-B3C3-AE4C85E1C1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE4130-D2C0-4406-B3C3-AE4C85E1C1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE4130-D2C0-4406-B3C3-AE4C85E1C1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB8C9F0-7494-4FA6-9230-5BCAAE785A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB8C9F0-7494-4FA6-9230-5BCAAE785A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB8C9F0-7494-4FA6-9230-5BCAAE785A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB8C9F0-7494-4FA6-9230-5BCAAE785A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

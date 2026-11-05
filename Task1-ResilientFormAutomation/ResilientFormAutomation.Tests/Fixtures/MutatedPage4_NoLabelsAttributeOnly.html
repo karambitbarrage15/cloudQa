@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mutated Page 4 - Accessible Attributes Without Labels</title>
+  <style>body { font-family: sans-serif; padding: 20px; } .row { margin-bottom: 15px; }</style>
+</head>
+<body>
+  <h2>Mutated Form 4: Label-less UI Relying Solely on ARIA and Placeholders</h2>
+  <form id="accessible_form">
+    <!-- First Name: No label, identified by aria-label and placeholder -->
+    <div class="row">
+      <input type="text" aria-label="First Name" placeholder="First Name" name="f_name" />
+    </div>
+
+    <!-- Gender: No label, radio group with aria-label -->
+    <div class="row" role="radiogroup" aria-label="Gender">
+      <input type="radio" name="user_gender" value="Male" aria-label="Male" /> Male
+      <input type="radio" name="user_gender" value="Female" aria-label="Female" /> Female
+    </div>
+
+    <!-- State: No label, select with aria-label -->
+    <div class="row">
+      <select aria-label="State" name="user_state">
+        <option value="">Choose State</option>
+        <option value="Australia">Australia</option>
+        <option value="Canada">Canada</option>
+      </select>
+    </div>
+  </form>
+</body>
+</html>

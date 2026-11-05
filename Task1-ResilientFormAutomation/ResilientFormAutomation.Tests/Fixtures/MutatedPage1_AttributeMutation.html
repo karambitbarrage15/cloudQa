@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mutated Page 1 - Attribute Mutation</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .c-field { margin-bottom: 15px; }
+  </style>
+</head>
+<body>
+  <h2>Mutated Form 1: Randomized IDs and Modified Classes (No 'for' attributes)</h2>
+  <form id="random_form_8812">
+    <!-- First Name: random ID, class changed, label has no 'for' -->
+    <div class="c-field">
+      <label class="c-label-txt">First Name</label>
+      <input id="input_usr_9812_field" name="txtFirstName" class="c-input-custom_28a" type="text" placeholder="Your name" />
+    </div>
+
+    <!-- Gender: custom radio IDs, label has no 'for', spans hold text -->
+    <div class="c-field">
+      <label class="c-label-txt">Gender</label>
+      <div>
+        <input id="rb_opt_1" name="rad_sex_grp" type="radio" value="Male" />
+        <span class="c-span">Male</span>
+        <input id="rb_opt_2" name="rad_sex_grp" type="radio" value="Female" />
+        <span class="c-span">Female</span>
+        <input id="rb_opt_3" name="rad_sex_grp" type="radio" value="Other" />
+        <span class="c-span">Other</span>
+      </div>
+    </div>
+
+    <!-- State: class changed, ID changed, label has no 'for' -->
+    <div class="c-field">
+      <label class="c-label-txt">State</label>
+      <select id="ddl_province_select" name="selRegion" class="c-select-custom">
+        <option value="">-- Choose --</option>
+        <option value="Australia">Australia</option>
+        <option value="Canada">Canada</option>
+        <option value="United States">United States</option>
+      </select>
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mutated Page 2 - Reordered and Nested Labels</title>
+  <style>body { font-family: sans-serif; padding: 20px; }</style>
+</head>
+<body>
+  <h2>Mutated Form 2: Reordered Fields and Nested Labels</h2>
+  <form id="reordered_form">
+    <!-- State comes first! Nested inside label -->
+    <section class="section-box" style="margin-bottom: 20px;">
+      <label class="nested-wrapper">
+        <span>State / Province:</span>
+        <select name="state_region_dropdown">
+          <option value="none">-- Pick Region --</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="Australia">Australia</option>
+          <option value="Germany">Germany</option>
+        </select>
+      </label>
+    </section>
+
+    <!-- Gender comes second! -->
+    <section class="section-box" style="margin-bottom: 20px;">
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" name="gender_selection" value="Male" /> Male</label>
+        <label><input type="radio" name="gender_selection" value="Female" /> Female</label>
+      </fieldset>
+    </section>
+
+    <!-- First Name comes LAST! Nested inside label -->
+    <section class="section-box" style="margin-bottom: 20px;">
+      <label class="nested-wrapper">
+        First Name:
+        <input type="text" name="user_forename" placeholder="First Name" />
+      </label>
+    </section>
+  </form>
+</body>
+</html>

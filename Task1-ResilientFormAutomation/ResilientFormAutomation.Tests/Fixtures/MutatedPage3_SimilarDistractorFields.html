@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mutated Page 3 - Distractor Fields</title>
+  <style>body { font-family: sans-serif; padding: 20px; } .row { margin-bottom: 12px; }</style>
+</head>
+<body>
+  <h2>Mutated Form 3: Similar Lookalike Distractor Fields</h2>
+  <form id="distractor_form">
+    <!-- Distractors before First Name -->
+    <div class="row">
+      <label for="middle_name">Middle Name</label>
+      <input id="middle_name" type="text" name="middleName" placeholder="Middle Name" />
+    </div>
+
+    <!-- The Actual Target: First Name -->
+    <div class="row">
+      <label for="real_first_name">First Name</label>
+      <input id="real_first_name" type="text" name="legalFirstName" placeholder="Given Name" />
+    </div>
+
+    <!-- Distractors after First Name -->
+    <div class="row">
+      <label for="last_name">Last Name</label>
+      <input id="last_name" type="text" name="lastName" placeholder="Family Name" />
+    </div>
+
+    <!-- Gender group -->
+    <div class="row">
+      <label>Gender</label>
+      <div>
+        <label><input type="radio" name="sex_input" value="Male" /> Male</label>
+        <label><input type="radio" name="sex_input" value="Female" /> Female</label>
+      </div>
+    </div>
+
+    <!-- Distractor dropdown -->
+    <div class="row">
+      <label for="state_license">State of Driver License</label>
+      <select id="state_license" name="licenseState">
+        <option>Texas</option>
+        <option>California</option>
+      </select>
+    </div>
+
+    <!-- The Actual Target: State -->
+    <div class="row">
+      <label for="primary_state">State</label>
+      <select id="primary_state" name="residentState">
+        <option>New York</option>
+        <option>Australia</option>
+        <option>Florida</option>
+      </select>
+    </div>
+  </form>
+</body>
+</html>

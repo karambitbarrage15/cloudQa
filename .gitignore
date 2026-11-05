@@ -5,6 +5,7 @@ obj/
 *.suo
 TestResults/
 .vs/
+Screenshots/
 
 # Node.js
 node_modules/
@@ -19,6 +20,7 @@ test-results/
 playwright-report/
 blob-report/
 playwright/.cache/
+Task2-PlainEnglishTestRunner/reports/
 
 # OS / IDE
 .DS_Store

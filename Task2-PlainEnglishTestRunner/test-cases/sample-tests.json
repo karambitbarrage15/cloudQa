@@ -1,0 +1,17 @@
+[
+  {
+    "name": "PHPTravels Customer Portal",
+    "url": "https://phptravels.com/demo",
+    "test": "Log in as a customer and verify the dashboard is shown"
+  },
+  {
+    "name": "Cypress Kitchen Sink Input Test",
+    "url": "https://example.cypress.io",
+    "test": "Click on 'type', enter 'hello@world.com', and verify the text appears"
+  },
+  {
+    "name": "CloudQA Practice Form Verification",
+    "url": "https://app.cloudqa.io/home/AutomationPracticeForm",
+    "test": "Enter 'Jane' in First Name and verify it is entered"
+  }
+]

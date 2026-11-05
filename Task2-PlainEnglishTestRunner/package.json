@@ -1,0 +1,19 @@
+{
+  "name": "task2-plain-english-test-runner",
+  "version": "1.0.0",
+  "description": "Autonomous AI-powered test runner that translates plain-English test cases into browser automation",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test-runner.js",
+    "test:phptravels": "node src/index.js --url https://phptravels.com/demo --test \"Log in as a customer and verify the dashboard is shown\"",
+    "test:cypress": "node src/index.js --url https://example.cypress.io --test \"Click on 'type', enter 'hello@world.com', and verify the text appears\""
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.49.0"
+  }
+}
